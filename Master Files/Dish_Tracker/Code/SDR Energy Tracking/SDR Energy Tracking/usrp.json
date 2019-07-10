@@ -1,0 +1,21 @@
+{
+    "device_string" : "type=b200,name=B205i,serial=314C033,product=B205mini",
+    
+    "enable_rx" : true,
+    "rx_bandwidth":  2500000.0,
+    "rx_frequency": 2000000000.0,
+    "rx_gain": 15.0,
+    "rx_samplerate": 10000000.0,
+    "agc" : "FAST",
+    "clock" : false,
+    "time" : false,
+    "iq_balance" : false,
+    "dc_correction" : false,
+    
+    "enable_tx" : false,
+    
+    "ip" : "127.0.0.1",
+    "port" : 12345,
+    
+    "data_sink_names" : [ "horn"]
+}

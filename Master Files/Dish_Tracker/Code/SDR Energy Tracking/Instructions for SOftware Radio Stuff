@@ -1,0 +1,9 @@
+INSTRUCTIONS FOR USING RSSI THINGYMABOBBER
+
+First call this from command line to get the sdr going:  
+"rssi_util usrp.json"
+
+Then open another terminal and run your program to pick up the
+info from the sdr output.
+
+"./rssi.py"
